@@ -1,0 +1,23 @@
+# Localization strings
+str_follow_on: "Siga em frente"
+str_rss_follow: "Siga o feed RSS"
+str_share_on: "Compartilhar no"
+str_add_to: "Adicionar à"
+str_email: "Email"
+str_tweet: "Tweet"
+str_pin_it: "Fixá-lo"
+str_next_post: "Próxima postagem"
+str_previous_post: "Postagem anterior"
+str_next_page: "Next"
+str_previous_page: "Prev"
+str_javascript_required_disqus: "Ative o JavaScript para visualizar os comentários."
+str_no_result_found: "nenhum resultado encontrado"
+str_cookie_approve: "Aprovar"
+str_cookie_disclaimer: "Gostaríamos de usar cookies e scripts de terceiros para melhorar a funcionalidade deste site."
+str_months: [Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro]
+str_dark: 'Dark'
+str_light: 'Light'
+str_date_format: '%d %m, %Y'
+
+# Localization settings
+cusdis_lang: pt-BR

@@ -1,0 +1,147 @@
+.title-padder {
+  padding: $title-padding;
+}
+
+h1.title {
+  @extend .subtle-txt-shadow;
+  padding: 0.5em 0;
+}
+
+
+.subtitle {
+  font-weight: normal;
+  margin-top: 5px;
+  text-shadow: 1px 1px 2px var(--text-shadow);
+}
+
+//Shared css in _post.scss
+
+
+/* --- Aligner --- */
+/* within page/posts */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.9% 0 1.5% 0;
+}
+
+.column {
+  flex: 50%;
+
+  img {
+    width: 100%;
+    min-width: 250px;
+  }
+
+  .single {
+    width: 50%;
+    display: block;
+  }
+}
+
+//home page
+
+.bootstrap{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.home-page{
+  width: 45rem;
+  padding: 50px 20px 50px 20px;
+  margin: 25px 25px 25px 25px;
+}
+
+.home-page-title{
+  
+  text-transform: uppercase;
+}
+
+.homepage-title{
+  color: #30bfa3;
+}
+
+.dados{
+
+  padding: 25px 25px 25px 25px;
+  margin: 25px 25px 25px 25px;
+  
+}
+
+.dados-inseridos{
+  padding: 50px 20px 50px 20px;
+  width: 24.688rem;
+}
+
+
+.linha{
+  width: 300px;
+  border: 1px solid #30bfa3;
+  margin-right: 40px;
+}
+
+.homepage-title{
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 70px;
+}
+
+.link-home{
+  display: block;
+  text-align: end;
+}
+
+.acesse{
+  display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.color{
+  color: #30bfa3;
+}
+
+
+
+//forms contatos
+
+.logo-contact{
+  height: 8.438rem;
+
+}
+
+.dados-contact[data-theme="light"]{
+  color: rgb(0, 0, 0);
+  font-size: 5rem;
+}
+
+.dados-contact[data-theme="dark"]{
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+}
+
+.dados-contact{
+  font-size: 5rem;
+}
+
+.sampa-contact{
+  color: #30bfa3;
+}
+
+.linha-contato{
+  width: 300px;
+    border: 1px solid #30bfa3;
+    margin-right: 40px;
+}
+.formulario{
+  display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.title-contatc{
+  text-transform: uppercase;
+  font-size: 3rem;
+}
